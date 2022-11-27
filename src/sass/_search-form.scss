@@ -1,0 +1,24 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: rgb(89, 143, 243);
+}
+
+input {
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  padding: 6px;
+}
+
+button {
+  border-radius: 4px;
+  padding: 5px 10px;
+  background-color: bisque;
+  border: 1px solid bisque;
+  cursor: pointer;
+}

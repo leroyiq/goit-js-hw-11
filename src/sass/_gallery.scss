@@ -1,0 +1,37 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.photo-card {
+  border: 1px solid rgb(131, 210, 235);
+  border-radius: 4px;
+
+  transition: scale, 250ms;
+
+  &:hover,
+  &:focus {
+    scale: 1.04;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-item {
+  text-align: center;
+}
+
+div.info {
+  background-color: rgb(218, 214, 210);
+}
+
+img {
+  display: block;
+}
