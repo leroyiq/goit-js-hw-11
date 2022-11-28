@@ -1,5 +1,5 @@
 import getRefs from './get-refs';
-const axios = require('axios').default;
+import axios from 'axios';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const refs = getRefs();
@@ -8,7 +8,7 @@ const BASE_URL = 'https://pixabay.com/api';
 const API_KEY = '31600135-5645a7576922c275040b0e37d';
 
 export default class ImagesApiService {
-  constructor(perPage = 50, searchQuery = '') {
+  constructor(perPage = 40, searchQuery = '') {
     this.searchQuery = searchQuery;
     this.page = 1;
     this.perPage = perPage;
